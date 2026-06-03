@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Wed May 27 18:07:53 2026
+# Process ID         : 222560
+# Current directory  : /home/user25/Xilinx/Vivado/Projects/C-RTL_Cosim-Memory
+# Command line       : vivado
+# Log file           : /home/user25/Xilinx/Vivado/Projects/C-RTL_Cosim-Memory/vivado.log
+# Journal file       : /home/user25/Xilinx/Vivado/Projects/C-RTL_Cosim-Memory/vivado.jou
+# Running On         : vecad-svr1
+# Platform           : AlmaLinux
+# Operating System   : AlmaLinux release 8.10 (Cerulean Leopard)
+# Processor Detail   : Intel(R) Xeon(R) Silver 4310 CPU @ 2.10GHz
+# CPU Frequency      : 3300.000 MHz
+# CPU Physical cores : 24
+# CPU Logical cores  : 48
+# Host memory        : 134054 MB
+# Swap memory        : 34359 MB
+# Total Virtual      : 168414 MB
+# Available Virtual  : 56026 MB
+#-----------------------------------------------------------
+start_gui
+create_project C-RTL_Cosim_Memory /home/user25/Xilinx/Vivado/Projects/C-RTL_Cosim-Memory/C-RTL_Cosim_Memory -part xcku5p-ffvb676-2-e
+set_property board_part xilinx.com:kcu116:part0:1.5 [current_project]
+cd
+dir
+cd Xilinx
+dir
+cd Vivado
+ls
+cd Projects
+ls
+cd C-RTL_Cosim-Memory
+ls
+dir
+source run.sh
+source run.sh
+source run.sh
+source run.sh
+source run.sh
+source run.sh

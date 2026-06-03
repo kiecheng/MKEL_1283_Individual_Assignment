@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../../../../../../../tools/Xilinx/2025.2/data/rsb/busdef" \
+"../../../../Mem_UVM.srcs/sim_1/new/mem_pkg.sv" \
+"../../../../Mem_UVM.srcs/sim_1/new/mem_if.sv" \
+"../../../../Mem_UVM.srcs/sim_1/new/dual_port_ram.sv" \
+"../../../../Mem_UVM.srcs/sim_1/new/top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

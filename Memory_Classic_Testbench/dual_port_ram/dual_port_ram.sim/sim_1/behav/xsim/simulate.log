@@ -1,0 +1,78 @@
+Time resolution is 1 ps
+==================================================
+   STARTING ULTIMATE RTL TESTBENCH SIMULATION
+==================================================
+
+[PHASE 1] Running 3 Isolated R/W on Port A...
+   -> PASSED [Port A]  : Addr 19e3 | Wrote: 0b | Read: 0b
+   -> PASSED [Port A]  : Addr 1bd4 | Wrote: f6 | Read: f6
+   -> PASSED [Port A]  : Addr 11c5 | Wrote: c1 | Read: c1
+
+[PHASE 1] Running 3 Isolated R/W on Port B...
+   -> PASSED [Port B]  : Addr 1843 | Wrote: a8 | Read: a8
+   -> PASSED [Port B]  : Addr 0bcd | Wrote: 17 | Read: 17
+   -> PASSED [Port B]  : Addr 1b9f | Wrote: 92 | Read: 92
+
+[PHASE 2] Running 3 Concurrent R/W on Both Ports...
+   -> PASSED [Concurr] : [A] Addr 0382 (Data e2) | [B] Addr 1cf2 (Data a5)
+   -> PASSED [Concurr] : [A] Addr 00a2 (Data d9) | [B] Addr 12c2 (Data d1)
+   -> PASSED [Concurr] : [A] Addr 0953 (Data 72) | [B] Addr 1eea (Data b4)
+
+[PHASE 3] Running 3 Random Cross-Port Checks...
+   -> PASSED [Cross]   : Addr 0e4b | Wrote (A): ae | Read (B): ae
+   -> PASSED [Cross]   : Addr 1f86 | Wrote (A): 07 | Read (B): 07
+   -> PASSED [Cross]   : Addr 0b20 | Wrote (A): fd | Read (B): fd
+
+[PHASE 4] Executing Collision Scenarios...
+   -> PASSED [Port A]  : Addr 0500 | Wrote: 22 | Read: 22
+   -> PASSED [RD-WR]   : Addr 0500 | A Wrote: FF | B Read: 22 (Old Data)
+   -> INFO   [WR-WR]   : Addr 0700 | A Wrote: AA | B Wrote: BB | Final State: bb
+
+[PHASE 5] Sweeping Fixed Boundaries (0x0000 and 0x1FFF)...
+   -> PASSED [Concurr] : [A] Addr 0000 (Data 11) | [B] Addr 1fff (Data 99)
+   -> PASSED [Concurr] : [A] Addr 1fff (Data 22) | [B] Addr 0000 (Data 88)
+
+==================================================
+   SIMULATION COMPLETE
+==================================================
+
+$finish called at time : 350 ns : File "/home/user25/Xilinx/Vivado/Projects/Memory_Test/dual_port_ram/dual_port_ram.srcs/sim_1/new/tb_dual_port_ram.sv" Line 245
+==================================================
+   STARTING ULTIMATE RTL TESTBENCH SIMULATION
+==================================================
+
+[PHASE 1] Running 3 Isolated R/W on Port A...
+   -> PASSED [Port A]  : Addr 19e3 | Wrote: 0b | Read: 0b
+   -> PASSED [Port A]  : Addr 1bd4 | Wrote: f6 | Read: f6
+   -> PASSED [Port A]  : Addr 11c5 | Wrote: c1 | Read: c1
+
+[PHASE 1] Running 3 Isolated R/W on Port B...
+   -> PASSED [Port B]  : Addr 1843 | Wrote: a8 | Read: a8
+   -> PASSED [Port B]  : Addr 0bcd | Wrote: 17 | Read: 17
+   -> PASSED [Port B]  : Addr 1b9f | Wrote: 92 | Read: 92
+
+[PHASE 2] Running 3 Concurrent R/W on Both Ports...
+   -> PASSED [Concurr] : [A] Addr 0382 (Data e2) | [B] Addr 1cf2 (Data a5)
+   -> PASSED [Concurr] : [A] Addr 00a2 (Data d9) | [B] Addr 12c2 (Data d1)
+   -> PASSED [Concurr] : [A] Addr 0953 (Data 72) | [B] Addr 1eea (Data b4)
+
+[PHASE 3] Running 3 Random Cross-Port Checks...
+   -> PASSED [Cross]   : Addr 0e4b | Wrote (A): ae | Read (B): ae
+   -> PASSED [Cross]   : Addr 1f86 | Wrote (A): 07 | Read (B): 07
+   -> PASSED [Cross]   : Addr 0b20 | Wrote (A): fd | Read (B): fd
+
+[PHASE 4] Executing Collision Scenarios...
+   -> PASSED [Port A]  : Addr 0500 | Wrote: 22 | Read: 22
+   -> PASSED [RD-WR]   : Addr 0500 | A Wrote: FF | B Read: 22 (Old Data)
+   -> INFO   [WR-WR]   : Addr 0700 | A Wrote: AA | B Wrote: BB | Final State: bb
+
+[PHASE 5] Sweeping Fixed Boundaries (0x0000 and 0x1FFF)...
+   -> PASSED [Concurr] : [A] Addr 0000 (Data 11) | [B] Addr 1fff (Data 99)
+   -> PASSED [Concurr] : [A] Addr 1fff (Data 22) | [B] Addr 0000 (Data 88)
+
+==================================================
+   SIMULATION COMPLETE
+==================================================
+
+$finish called at time : 350 ns : File "/home/user25/Xilinx/Vivado/Projects/Memory_Test/dual_port_ram/dual_port_ram.srcs/sim_1/new/tb_dual_port_ram.sv" Line 245
+INFO: xsimkernel Simulation Memory Usage: 511828 KB (Peak: 568332 KB), Simulation CPU Usage: 1900 ms

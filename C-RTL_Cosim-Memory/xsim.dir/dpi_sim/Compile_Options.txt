@@ -1,0 +1,1 @@
+-svlog "top.sv" -sv_lib "dpi" -s "dpi_sim" 

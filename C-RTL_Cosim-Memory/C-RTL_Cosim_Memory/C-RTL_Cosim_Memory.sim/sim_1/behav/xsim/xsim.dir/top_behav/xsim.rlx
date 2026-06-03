@@ -1,0 +1,12 @@
+
+{ 
+    crc :  5924865721449754386  , 
+    ccp_crc :  0  , 
+    cmdline : " --incr --debug typical --relax --mt 8 --include /tools/Xilinx/2025.2/tps/boost_1_72_0 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -sv_root . -sc_lib libdpi.so --snapshot top_behav xil_defaultlib.top xil_defaultlib.glbl -dpiheader dpiheader.h" , 
+    buildDate : "Nov 14 2025" , 
+    buildTime : "12:36:23" , 
+    linkCmd : "/tools/Xilinx/2025.2/Vivado/lib/lnx64.o/../../tps/lnx64/gcc-9.3.0/bin/g++ -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/top_behav/xsimk\"   \"xsim.dir/top_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/top_behav/obj/xsim_1.lnx64.o\" \"xsim.dir/top_behav/obj/xsim_2.lnx64.o\" -L\"/tools/Xilinx/2025.2/Vivado/lib/lnx64.o\" -lxv_simulator_kernel   -L /home/user25/Xilinx/Vivado/Projects/C-RTL_Cosim-Memory/C-RTL_Cosim_Memory/C-RTL_Cosim_Memory.sim/sim_1/behav/xsim  -ldpi   -L/tools/Xilinx/2025.2/Vivado/lib/lnx64.o/../../tps/lnx64/gcc-9.3.0/bin/../lib64 -Wl,--disable-new-dtags -Wl,-rpath=/tools/Xilinx/2025.2/Vivado/lib/lnx64.o/../../tps/lnx64/gcc-9.3.0/bin/../lib64 -lxv_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

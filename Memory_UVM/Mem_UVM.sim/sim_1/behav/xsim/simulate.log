@@ -1,0 +1,242 @@
+# random sv_seed = 1780042949
+# random sv_seed = 1780042949
+# random sv_seed = 1780042949
+Time resolution is 1 ps
+UVM_INFO /tools/Xilinx/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test mem_test...
+UVM_INFO /tools/Xilinx/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(513) @ 0: uvm_test_top [TEST] Handing control to Master Sequence...
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(254) @ 0: uvm_test_top.env.agent.sequencer@@master_seq [MASTER_SEQ] === STARTING MASTER SEQUENCE ===
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(79) @ 0: uvm_test_top.env.agent.sequencer@@seq_1_2 [SEQ] === EXECUTING SCENE 1 & 2 (SEQUENTIAL ISOLATION & CROSS) ===
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(84) @ 0: uvm_test_top.env.agent.sequencer@@seq_1_2 [SEQ] Running 3 Random R/W on Port A...
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 30000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 0fcb | Wrote: cc | Read: cc
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 50000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 123b | Wrote: 1f | Read: 1f
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 70000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 19fe | Wrote: 41 | Read: 41
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(101) @ 70000: uvm_test_top.env.agent.sequencer@@seq_1_2 [SEQ] Running 3 Random R/W on Port B...
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 90000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 13f6 | Wrote: 7a | Read: 7a
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 110000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 1f49 | Wrote: f9 | Read: f9
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 130000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 0bd3 | Wrote: 0f | Read: 0f
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(115) @ 130000: uvm_test_top.env.agent.sequencer@@seq_1_2 [SEQ] === EXECUTING SCENE 1 & 2 (WRITE-THEN-READ STRESS) ===
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 150000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 07b7 | Wrote: 69 | Read: 69
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 150000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 183a | Wrote: f0 | Read: f0
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 170000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 0a75 | Wrote: 53 | Read: 53
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 170000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 10bc | Wrote: 3e | Read: 3e
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 190000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 057a | Wrote: 23 | Read: 23
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 190000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 1324 | Wrote: 94 | Read: 94
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(144) @ 190000: uvm_test_top.env.agent.sequencer@@seq_1_2 [SEQ] Running 3 Cross-Port Checks (Write A -> Read B)...
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 210000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 0961 | Wrote: 65 | Read: 65
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 230000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 0371 | Wrote: 2a | Read: 2a
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 250000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 005c | Wrote: 27 | Read: 27
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(171) @ 250000: uvm_test_top.env.agent.sequencer@@seq_3 [SEQ] === EXECUTING SCENE 3 (COLLISIONS) ===
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 270000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 0500 | Wrote: 22 | Read: 22
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 280000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 0500 | Wrote: 22 | Read: 22
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 290000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 0500 | Wrote: ff | Read: ff
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 290000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 0500 | Wrote: ff | Read: ff
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(385) @ 300000: uvm_test_top.env.sb [SB COLLISION] WR-WR at Addr: 0700 | Port A Wrote: aa | Port B Wrote (WINNER): bb
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 310000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 0700 | Wrote: bb | Read: bb
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 310000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 0700 | Wrote: bb | Read: bb
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(216) @ 310000: uvm_test_top.env.agent.sequencer@@seq_4 [SEQ] === EXECUTING SCENE 4 (BOUNDARY SWEEP) ===
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 330000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 0000 | Wrote: bc | Read: bc
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 330000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 1fff | Wrote: 41 | Read: 41
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 350000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 1fff | Wrote: 84 | Read: 84
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 350000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 0000 | Wrote: 69 | Read: 69
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(265) @ 350000: uvm_test_top.env.agent.sequencer@@master_seq [MASTER_SEQ] === MASTER SEQUENCE COMPLETE ===
+UVM_INFO /tools/Xilinx/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(19968) @ 350000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /tools/Xilinx/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(13673) @ 350000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   40
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[MASTER_SEQ]     2
+[RNTST]     1
+[SB COLLISION]     1
+[SB PASS]    25
+[SEQ]     7
+[TEST]     1
+[TEST_DONE]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+$finish called at time : 350 ns : File "/tools/Xilinx/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+UVM_INFO /tools/Xilinx/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test mem_test...
+UVM_INFO /tools/Xilinx/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(513) @ 0: uvm_test_top [TEST] Handing control to Master Sequence...
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(254) @ 0: uvm_test_top.env.agent.sequencer@@master_seq [MASTER_SEQ] === STARTING MASTER SEQUENCE ===
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(79) @ 0: uvm_test_top.env.agent.sequencer@@seq_1_2 [SEQ] === EXECUTING SCENE 1 & 2 (SEQUENTIAL ISOLATION & CROSS) ===
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(84) @ 0: uvm_test_top.env.agent.sequencer@@seq_1_2 [SEQ] Running 3 Random R/W on Port A...
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 30000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 0fcb | Wrote: cc | Read: cc
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 50000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 123b | Wrote: 1f | Read: 1f
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 70000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 19fe | Wrote: 41 | Read: 41
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(101) @ 70000: uvm_test_top.env.agent.sequencer@@seq_1_2 [SEQ] Running 3 Random R/W on Port B...
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 90000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 13f6 | Wrote: 7a | Read: 7a
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 110000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 1f49 | Wrote: f9 | Read: f9
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 130000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 0bd3 | Wrote: 0f | Read: 0f
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(115) @ 130000: uvm_test_top.env.agent.sequencer@@seq_1_2 [SEQ] === EXECUTING SCENE 1 & 2 (WRITE-THEN-READ STRESS) ===
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 150000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 07b7 | Wrote: 69 | Read: 69
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 150000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 183a | Wrote: f0 | Read: f0
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 170000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 0a75 | Wrote: 53 | Read: 53
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 170000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 10bc | Wrote: 3e | Read: 3e
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 190000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 057a | Wrote: 23 | Read: 23
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 190000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 1324 | Wrote: 94 | Read: 94
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(144) @ 190000: uvm_test_top.env.agent.sequencer@@seq_1_2 [SEQ] Running 3 Cross-Port Checks (Write A -> Read B)...
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 210000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 0961 | Wrote: 65 | Read: 65
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 230000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 0371 | Wrote: 2a | Read: 2a
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 250000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 005c | Wrote: 27 | Read: 27
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(171) @ 250000: uvm_test_top.env.agent.sequencer@@seq_3 [SEQ] === EXECUTING SCENE 3 (COLLISIONS) ===
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 270000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 0500 | Wrote: 22 | Read: 22
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 280000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 0500 | Wrote: 22 | Read: 22
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 290000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 0500 | Wrote: ff | Read: ff
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 290000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 0500 | Wrote: ff | Read: ff
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(385) @ 300000: uvm_test_top.env.sb [SB COLLISION] WR-WR at Addr: 0700 | Port A Wrote: aa | Port B Wrote (WINNER): bb
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 310000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 0700 | Wrote: bb | Read: bb
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 310000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 0700 | Wrote: bb | Read: bb
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(216) @ 310000: uvm_test_top.env.agent.sequencer@@seq_4 [SEQ] === EXECUTING SCENE 4 (BOUNDARY SWEEP) ===
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 330000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 0000 | Wrote: bc | Read: bc
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 330000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 1fff | Wrote: 41 | Read: 41
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 350000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 1fff | Wrote: 84 | Read: 84
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 350000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 0000 | Wrote: 69 | Read: 69
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(265) @ 350000: uvm_test_top.env.agent.sequencer@@master_seq [MASTER_SEQ] === MASTER SEQUENCE COMPLETE ===
+UVM_INFO /tools/Xilinx/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(19968) @ 350000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /tools/Xilinx/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(13673) @ 350000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   40
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[MASTER_SEQ]     2
+[RNTST]     1
+[SB COLLISION]     1
+[SB PASS]    25
+[SEQ]     7
+[TEST]     1
+[TEST_DONE]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+$finish called at time : 350 ns : File "/tools/Xilinx/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+UVM_INFO /tools/Xilinx/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test mem_test...
+UVM_INFO /tools/Xilinx/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(513) @ 0: uvm_test_top [TEST] Handing control to Master Sequence...
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(254) @ 0: uvm_test_top.env.agent.sequencer@@master_seq [MASTER_SEQ] === STARTING MASTER SEQUENCE ===
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(79) @ 0: uvm_test_top.env.agent.sequencer@@seq_1_2 [SEQ] === EXECUTING SCENE 1 & 2 (SEQUENTIAL ISOLATION & CROSS) ===
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(84) @ 0: uvm_test_top.env.agent.sequencer@@seq_1_2 [SEQ] Running 3 Random R/W on Port A...
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 30000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 0fcb | Wrote: cc | Read: cc
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 50000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 123b | Wrote: 1f | Read: 1f
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 70000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 19fe | Wrote: 41 | Read: 41
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(101) @ 70000: uvm_test_top.env.agent.sequencer@@seq_1_2 [SEQ] Running 3 Random R/W on Port B...
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 90000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 13f6 | Wrote: 7a | Read: 7a
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 110000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 1f49 | Wrote: f9 | Read: f9
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 130000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 0bd3 | Wrote: 0f | Read: 0f
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(115) @ 130000: uvm_test_top.env.agent.sequencer@@seq_1_2 [SEQ] === EXECUTING SCENE 1 & 2 (WRITE-THEN-READ STRESS) ===
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 150000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 07b7 | Wrote: 69 | Read: 69
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 150000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 183a | Wrote: f0 | Read: f0
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 170000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 0a75 | Wrote: 53 | Read: 53
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 170000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 10bc | Wrote: 3e | Read: 3e
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 190000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 057a | Wrote: 23 | Read: 23
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 190000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 1324 | Wrote: 94 | Read: 94
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(144) @ 190000: uvm_test_top.env.agent.sequencer@@seq_1_2 [SEQ] Running 3 Cross-Port Checks (Write A -> Read B)...
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 210000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 0961 | Wrote: 65 | Read: 65
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 230000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 0371 | Wrote: 2a | Read: 2a
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 250000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 005c | Wrote: 27 | Read: 27
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(171) @ 250000: uvm_test_top.env.agent.sequencer@@seq_3 [SEQ] === EXECUTING SCENE 3 (COLLISIONS) ===
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 270000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 0500 | Wrote: 22 | Read: 22
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 280000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 0500 | Wrote: 22 | Read: 22
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 290000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 0500 | Wrote: ff | Read: ff
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 290000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 0500 | Wrote: ff | Read: ff
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(385) @ 300000: uvm_test_top.env.sb [SB COLLISION] WR-WR at Addr: 0700 | Port A Wrote: aa | Port B Wrote (WINNER): bb
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 310000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 0700 | Wrote: bb | Read: bb
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 310000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 0700 | Wrote: bb | Read: bb
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(216) @ 310000: uvm_test_top.env.agent.sequencer@@seq_4 [SEQ] === EXECUTING SCENE 4 (BOUNDARY SWEEP) ===
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 330000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 0000 | Wrote: bc | Read: bc
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 330000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 1fff | Wrote: 41 | Read: 41
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(397) @ 350000: uvm_test_top.env.sb [SB PASS] MATCH [A] Addr: 1fff | Wrote: 84 | Read: 84
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(408) @ 350000: uvm_test_top.env.sb [SB PASS] MATCH [B] Addr: 0000 | Wrote: 69 | Read: 69
+UVM_INFO /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv(265) @ 350000: uvm_test_top.env.agent.sequencer@@master_seq [MASTER_SEQ] === MASTER SEQUENCE COMPLETE ===
+UVM_INFO /tools/Xilinx/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(19968) @ 350000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /tools/Xilinx/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(13673) @ 350000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   40
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[MASTER_SEQ]     2
+[RNTST]     1
+[SB COLLISION]     1
+[SB PASS]    25
+[SEQ]     7
+[TEST]     1
+[TEST_DONE]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+$finish called at time : 350 ns : File "/tools/Xilinx/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+INFO: xsimkernel Simulation Memory Usage: 527880 KB (Peak: 581576 KB), Simulation CPU Usage: 2070 ms

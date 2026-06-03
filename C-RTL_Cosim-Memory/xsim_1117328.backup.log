@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Fri May 29 14:39:43 2026
+# Process ID         : 1117328
+# Current directory  : /home/user25/Xilinx/Vivado/Projects/C-RTL_Cosim-Memory
+# Command line       : xsim -mode tcl -source {xsim.dir/dpi_sim/xsim_script.tcl}
+# Log file           : /home/user25/Xilinx/Vivado/Projects/C-RTL_Cosim-Memory/xsim.log
+# Journal file       : /home/user25/Xilinx/Vivado/Projects/C-RTL_Cosim-Memory/xsim.jou
+# Running On         : vecad-svr1
+# Platform           : AlmaLinux
+# Operating System   : AlmaLinux release 8.10 (Cerulean Leopard)
+# Processor Detail   : Intel(R) Xeon(R) Silver 4310 CPU @ 2.10GHz
+# CPU Frequency      : 3300.000 MHz
+# CPU Physical cores : 24
+# CPU Logical cores  : 48
+# Host memory        : 134054 MB
+# Swap memory        : 34359 MB
+# Total Virtual      : 168414 MB
+# Available Virtual  : 49147 MB
+#-----------------------------------------------------------
+source xsim.dir/dpi_sim/xsim_script.tcl
+# xsim {dpi_sim} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+==================================================
+   STARTING DPI-C GOLDEN MODEL SIMULATION
+==================================================
+
+[CRITERIA 1] Basic Read/Write...
+   --- Isolated Port A ---
+   -> PASSED [Basic R/W] Port A | Addr: 0x0567 | Exp: 0xc6 | Got: 0xc6
+   -> PASSED [Basic R/W] Port A | Addr: 0x1869 | Exp: 0x73 | Got: 0x73
+   -> PASSED [Basic R/W] Port A | Addr: 0x1c51 | Exp: 0xff | Got: 0xff
+   --- Isolated Port B ---
+   -> PASSED [Basic R/W] Port B | Addr: 0x144a | Exp: 0xec | Got: 0xec
+   -> PASSED [Basic R/W] Port B | Addr: 0x1f29 | Exp: 0xcd | Got: 0xcd
+   -> PASSED [Basic R/W] Port B | Addr: 0x18ba | Exp: 0xab | Got: 0xab
+   --- Simultaneous Non-Colliding ---
+   -> PASSED [Basic R/W] Port A | Addr: 0x02b2 | Exp: 0xe3 | Got: 0xe3
+   -> PASSED [Basic R/W] Port B | Addr: 0x0fdc | Exp: 0x46 | Got: 0x46
+   -> PASSED [Basic R/W] Port A | Addr: 0x021c | Exp: 0x54 | Got: 0x54
+   -> PASSED [Basic R/W] Port B | Addr: 0x1d03 | Exp: 0xf8 | Got: 0xf8
+   -> PASSED [Basic R/W] Port A | Addr: 0x04bb | Exp: 0xe7 | Got: 0xe7
+   -> PASSED [Basic R/W] Port B | Addr: 0x1cc9 | Exp: 0x8d | Got: 0x8d
+
+[CRITERIA 2] Cross-Port Verification (Write A -> Read B)...
+   -> PASSED [Cross-Port] Port B | Addr: 0x0f76 | Exp: 0x5a | Got: 0x5a
+   -> PASSED [Cross-Port] Port B | Addr: 0x192e | Exp: 0x63 | Got: 0x63
+   -> PASSED [Cross-Port] Port B | Addr: 0x0233 | Exp: 0x9f | Got: 0x9f
+
+[CRITERIA 3] Concurrent Access Scenarios...
+   -> PASSED [RD-WR Coll.] Port B | Addr: 0x0500 | Exp: 0x22 | Got: 0x22
+   -> PASSED [WR-WR Coll.] Port A | Addr: 0x0700 | Exp: 0xbb | Got: 0xbb
+
+[CRITERIA 4] Full Range Sweep (Boundaries 0x0000 and 0x1FFF)...
+   -> PASSED [Boundary Sweep 1] Port A | Addr: 0x0000 | Exp: 0x11 | Got: 0x11
+   -> PASSED [Boundary Sweep 1] Port B | Addr: 0x1fff | Exp: 0x99 | Got: 0x99
+   -> PASSED [Boundary Sweep 2] Port A | Addr: 0x1fff | Exp: 0x22 | Got: 0x22
+   -> PASSED [Boundary Sweep 2] Port B | Addr: 0x0000 | Exp: 0x88 | Got: 0x88
+
+==================================================
+   DPI-C SIMULATION COMPLETE
+==================================================
+$finish called at time : 350 ns : File "/home/user25/Xilinx/Vivado/Projects/C-RTL_Cosim-Memory/top.sv" Line 72
+exit
+INFO: xsimkernel Simulation Memory Usage: 513880 KB (Peak: 579156 KB), Simulation CPU Usage: 1700 ms
+INFO: [Common 17-206] Exiting xsim at Fri May 29 14:39:47 2026...

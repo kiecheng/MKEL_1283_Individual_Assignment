@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 14 2025
+12:36:23
+/home/user25/Xilinx/Vivado/Projects/C-RTL_Cosim-Memory/C-RTL_Cosim_Memory/C-RTL_Cosim_Memory.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,uvm,,,,,,
+/home/user25/Xilinx/Vivado/Projects/C-RTL_Cosim-Memory/dual_port_ram.sv,1779951518,systemVerilog,,/home/user25/Xilinx/Vivado/Projects/C-RTL_Cosim-Memory/top.sv,,dual_port_ram,,uvm,../../../../../../../../../../../tools/Xilinx/2025.2/data/rsb/busdef,,,,,
+/home/user25/Xilinx/Vivado/Projects/C-RTL_Cosim-Memory/top.sv,1780039673,systemVerilog,,,,top,,uvm,../../../../../../../../../../../tools/Xilinx/2025.2/data/rsb/busdef,,,,,

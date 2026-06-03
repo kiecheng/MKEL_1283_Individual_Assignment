@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_if.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/mem_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/dual_port_ram.sv" into library work
+INFO: [VRFC 10-311] analyzing module dual_port_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.srcs/sim_1/new/top.sv" into library work
+INFO: [VRFC 10-311] analyzing module top

@@ -1,0 +1,252 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu May 28 14:14:20 2026
+# Process ID         : 564876
+# Current directory  : /home/user25/Xilinx/Vivado/Projects/Memory_Test
+# Command line       : vivado
+# Log file           : /home/user25/Xilinx/Vivado/Projects/Memory_Test/vivado.log
+# Journal file       : /home/user25/Xilinx/Vivado/Projects/Memory_Test/vivado.jou
+# Running On         : vecad-svr1
+# Platform           : AlmaLinux
+# Operating System   : AlmaLinux release 8.10 (Cerulean Leopard)
+# Processor Detail   : Intel(R) Xeon(R) Silver 4310 CPU @ 2.10GHz
+# CPU Frequency      : 1436.683 MHz
+# CPU Physical cores : 24
+# CPU Logical cores  : 48
+# Host memory        : 134054 MB
+# Swap memory        : 34359 MB
+# Total Virtual      : 168414 MB
+# Available Virtual  : 53031 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.xpr
+set_property -name {xsim.simulate.xsim.more_options} -value {-cov_db_dir ./my_cov_dir -sv_seed random -profile} -objects [get_filesets sim_1]
+launch_simulation
+set_property -name {xsim.simulate.xsim.more_options} -value {-cov_db_dir ./my_cov_dir -sv_seed random} -objects [get_filesets sim_1]
+launch_simulation
+source top.tcl
+set_property -name {xsim.simulate.xsim.more_options} -value {-cov_db_dir ./my_cov_dir -sv_seed random -profile} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+set_property -name {xsim.simulate.xsim.more_options} -value {-cov_db_dir ./my_cov_dir -sv_seed random} -objects [get_filesets sim_1]
+launch_simulation
+source top.tcl
+restart
+time {run all}
+restart
+time {run all}
+close_sim
+close_project
+open_project /home/user25/Xilinx/Vivado/Projects/C-RTL_Cosim-Memory/C-RTL_Cosim_Memory/C-RTL_Cosim_Memory.xpr
+source run.sh
+ls
+pwd
+cd ../
+cd C-RTL_Cosim-Memory
+pwd
+source run.sh
+source run.sh
+close_project
+open_project /home/user25/Xilinx/Vivado/Projects/Memory_Test/dual_port_ram/dual_port_ram.xpr
+launch_simulation
+source tb_dual_port_ram.tcl
+update_compile_order -fileset sources_1
+restart
+time {run all}
+close_sim
+close_project
+open_project /home/user25/Xilinx/Vivado/Projects/C-RTL_Cosim-Memory/C-RTL_Cosim_Memory/C-RTL_Cosim_Memory.xpr
+exec xvlog -sv dual_port_ram.sv top.sv
+exec xelab -dpiheader dpiheader.h -svlog top.sv
+exec xsc Ccode.cpp
+exec xelab -svlog top.sv -sv_lib dpi -s dpi_sim
+xsim dpi_sim
+restart
+time {run all}
+close_sim
+close_project
+open_project /home/user25/Xilinx/Vivado/Projects/Memory_Test/dual_port_ram/dual_port_ram.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_dual_port_ram.tcl
+close_sim
+launch_simulation
+source tb_dual_port_ram.tcl
+close_sim
+launch_simulation
+source tb_dual_port_ram.tcl
+close_sim
+launch_simulation
+source tb_dual_port_ram.tcl
+restart
+time {run all}
+close_sim
+launch_simulation
+source tb_dual_port_ram.tcl
+close_sim
+launch_simulation
+source tb_dual_port_ram.tcl
+close_sim
+close_project
+open_project /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.xpr
+launch_simulation
+source top.tcl
+restart
+time {run all}
+close_sim
+launch_simulation
+source top.tcl
+restart
+restart
+time {run all}
+run all
+restart
+run all
+close_sim
+launch_simulation
+source top.tcl
+close_sim
+launch_simulation
+source top.tcl
+restart
+run all
+close_sim
+launch_simulation
+source top.tcl
+run all
+restart
+run all
+close_sim
+launch_simulation
+source top.tcl
+restart
+run all
+close_sim
+launch_simulation
+source top.tcl
+restart
+run all
+close_sim
+launch_simulation
+source top.tcl
+restart
+run all
+close_sim
+close_project
+open_project /home/user25/Xilinx/Vivado/Projects/Memory_Test/dual_port_ram/dual_port_ram.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.xpr
+launch_simulation
+launch_simulation
+source top.tcl
+restart
+run all
+close_sim
+launch_simulation
+source top.tcl
+restart
+run all
+close_sim
+launch_simulation
+source top.tcl
+close_sim
+close_project
+open_project /home/user25/Xilinx/Vivado/Projects/Memory_Test/dual_port_ram/dual_port_ram.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_dual_port_ram.tcl
+close_sim
+close_project
+open_project /home/user25/Xilinx/Vivado/Projects/C-RTL_Cosim-Memory/C-RTL_Cosim_Memory/C-RTL_Cosim_Memory.xpr
+source run.sh
+source run.sh
+close_project
+open_project /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.xpr
+launch_simulation
+source top.tcl
+restart
+run all
+close_sim
+launch_simulation
+launch_simulation
+source top.tcl
+restart
+run all
+close_sim
+launch_simulation
+source top.tcl
+restart
+run all
+close_sim
+launch_simulation
+source top.tcl
+restart
+run all
+close_sim
+launch_simulation
+source top.tcl
+restart
+run all
+close_sim
+launch_simulation
+source top.tcl
+restart
+run all
+close_sim
+launch_simulation
+source top.tcl
+restart
+run all
+close_sim
+launch_simulation
+source top.tcl
+restart
+run all
+close_sim
+launch_simulation
+source top.tcl
+restart
+run all
+close_sim
+launch_simulation
+source top.tcl
+restart
+run all
+close_sim
+launch_simulation
+source top.tcl
+restart
+run all
+close_sim
+close_project
+open_project /home/user25/Xilinx/Vivado/Projects/Memory_Test/dual_port_ram/dual_port_ram.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_dual_port_ram.tcl
+close_sim
+close_project
+open_project /home/user25/Xilinx/Vivado/Projects/Mem_UVM/Mem_UVM.xpr
+launch_simulation
+launch_simulation
+source top.tcl
+close_sim
+launch_simulation
+source top.tcl
+close_sim
+launch_simulation
+source top.tcl
+close_sim
+launch_simulation
+source top.tcl
+close_sim
+close_project
+open_project /home/user25/Xilinx/Vivado/Projects/C-RTL_Cosim-Memory/C-RTL_Cosim_Memory/C-RTL_Cosim_Memory.xpr
+pwd
+source run.sh
+source run.sh
+source run.sh
+source run.sh

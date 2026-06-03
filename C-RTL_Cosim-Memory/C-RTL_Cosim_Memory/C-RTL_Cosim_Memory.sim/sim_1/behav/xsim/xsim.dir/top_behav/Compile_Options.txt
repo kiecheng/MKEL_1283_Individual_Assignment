@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "8" --include "/tools/Xilinx/2025.2/tps/boost_1_72_0" -L "xil_defaultlib" -L "uvm" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -sv_root "." -sc_lib "libdpi.so" --snapshot "top_behav" "xil_defaultlib.top" "xil_defaultlib.glbl" -log "elaborate.log" -dpiheader "dpiheader.h" 

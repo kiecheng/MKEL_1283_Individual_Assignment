@@ -1,0 +1,1 @@
+-relax -s "top_sim" "work.top" -L "uvm" -timescale "1ns/1ps" -cc_type "functional" -cc_db "mem_cov" 

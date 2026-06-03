@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Wed May 27 23:58:34 2026
+# Process ID         : 337049
+# Current directory  : /home/user25/Xilinx/Vivado/Projects/Memory_Test
+# Command line       : vivado
+# Log file           : /home/user25/Xilinx/Vivado/Projects/Memory_Test/vivado.log
+# Journal file       : /home/user25/Xilinx/Vivado/Projects/Memory_Test/vivado.jou
+# Running On         : vecad-svr1
+# Platform           : AlmaLinux
+# Operating System   : AlmaLinux release 8.10 (Cerulean Leopard)
+# Processor Detail   : Intel(R) Xeon(R) Silver 4310 CPU @ 2.10GHz
+# CPU Frequency      : 3300.000 MHz
+# CPU Physical cores : 24
+# CPU Logical cores  : 48
+# Host memory        : 134054 MB
+# Swap memory        : 34359 MB
+# Total Virtual      : 168414 MB
+# Available Virtual  : 54096 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/user25/Xilinx/Vivado/Projects/Memory_Test/dual_port_ram/dual_port_ram.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_dual_port_ram.tcl
+close_sim
