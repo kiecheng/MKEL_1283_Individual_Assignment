@@ -142,8 +142,8 @@ The following test scenarios were executed across all methodologies:
 | ------------------------- | ------------ | ------------------ | ----------------- |
 | Stimulus Generation       | Procedural   | Constrained-Random | Algorithmic (C++) |
 | Runtime                   | 0.076 s      | 0.214 s            | 0.207 s           |
-| Approx. Testbench LOC     | 84           | 334                | 132               |
-| Verification Architecture | Monolithic   | Modular            | Hybrid            |
+| Approx. Testbench LOC     | 150          | 450                | 200               |
+| Implementation Complexity | Low          | High               | Medium            |
 | Scalability               | Low          | High               | Medium-High       |
 
 ---
